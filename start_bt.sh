@@ -26,13 +26,12 @@ else
     TTY=$1
 fi
 
-TTY="/dev/$TTY"
-echo "Using device $TTY for Bluetooth"
-
 echo "We must stop getty now, You will lose your external serial console!"
 
 systemctl stop serial-getty@$TTY
-sleep 2
+
+TTY="/dev/$TTY"
+echo "Using device $TTY for Bluetooth"
 
 echo "Power cycle 8822BS BT-section"
 rfkill block bluetooth
