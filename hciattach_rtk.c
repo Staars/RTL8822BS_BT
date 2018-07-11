@@ -327,7 +327,7 @@ static struct patch_info patch_table[] = {
 		"rtl8703a_fw", "rtl8703a_config", "RTL8703AS"},
 #endif
 	{ 0, 0, ROM_LMP_8822b, ROM_LMP_8822b, 0, 0,
-		"rtl8822b_fw", "rtl8822b_config", "RTL8822BS"},
+		"rtl8822b_fw.bin", "rtl8822b_config.bin", "RTL8822BS"},
 
 	/* RTL8703BS
 	 * RTL8723CS_XX
