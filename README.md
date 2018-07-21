@@ -5,4 +5,4 @@ On the Z28pro (2/16) BT is connected via ttyS2 and uses 3-wire-protocol.
 
 Copy firmware and config to /lib/firmware/rtlbt/ and remove the .bin-endings.
 
-You must disconnect your USB-UART-adapter, if you usee it as an external serial console. For me it is enough to unplug it from the USB-port and leave the cables connected to the PCB.
+You must disconnect your USB-UART-adapter, if you use it as an external serial console. For me it is enough to unplug it from the USB-port and leave the cables connected to the PCB.
